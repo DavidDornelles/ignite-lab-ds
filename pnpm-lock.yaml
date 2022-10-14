@@ -5,13 +5,10 @@ specifiers:
   '@radix-ui/react-checkbox': ^1.0.0
   '@radix-ui/react-slot': ^1.0.0
   '@storybook/addon-actions': ^6.5.12
-  '@storybook/addon-docs': ^6.5.12
   '@storybook/addon-essentials': ^6.5.12
   '@storybook/addon-interactions': ^6.5.12
   '@storybook/addon-links': ^6.5.12
   '@storybook/builder-vite': ^0.2.4
-  '@storybook/client-api': ^6.5.12
-  '@storybook/preview-web': ^6.5.12
   '@storybook/react': ^6.5.12
   '@storybook/storybook-deployer': ^2.8.12
   '@storybook/testing-library': ^0.0.13
@@ -39,13 +36,10 @@ dependencies:
 devDependencies:
   '@babel/core': 7.19.3
   '@storybook/addon-actions': 6.5.12_biqbaboplfbrettd7655fr4n2y
-  '@storybook/addon-docs': 6.5.12_kp27jdcapdfmsr2iyuaso7hgri
   '@storybook/addon-essentials': 6.5.12_kp27jdcapdfmsr2iyuaso7hgri
   '@storybook/addon-interactions': 6.5.12_335cwx3de7hzzvfoyjqbus3zhu
   '@storybook/addon-links': 6.5.12_biqbaboplfbrettd7655fr4n2y
   '@storybook/builder-vite': 0.2.4_y4fmsoh3n5be6fbnn7sdcmlrae
-  '@storybook/client-api': 6.5.12_biqbaboplfbrettd7655fr4n2y
-  '@storybook/preview-web': 6.5.12_biqbaboplfbrettd7655fr4n2y
   '@storybook/react': 6.5.12_kp27jdcapdfmsr2iyuaso7hgri
   '@storybook/storybook-deployer': 2.8.12
   '@storybook/testing-library': 0.0.13_biqbaboplfbrettd7655fr4n2y
