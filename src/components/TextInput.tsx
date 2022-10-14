@@ -9,7 +9,12 @@ export interface TextInputRootProps {
 function TextInputRoot({ children }:TextInputRootProps) {
   return (
     <div className={clsx(
-      'flex items-center gap-3 h-12 py-4 px-3 rounded bg-grey-800 w-full focus-within:ring-2 ring-cyan-500',
+      `flex items-center gap-3 
+      h-12 py-4 px-3 rounded w-full 
+      transition-colors group
+      bg-grey-800 
+      hover:bg-cyan-500 hover:text-grey-800 
+      focus-within:ring-2 ring-cyan-500`
     )}>
       {children}
     </div>
@@ -22,7 +27,7 @@ export interface TextInputIconProps {
 
 function TextInputIcon({ children }:TextInputIconProps) {
   return (
-    <Slot className='h-6 w-6 text-grey-400'>{children}</Slot>
+    <Slot className='h-6 w-6 text-grey-400 group-hover:text-grey-800'>{children}</Slot>
   )
 }
 
@@ -30,7 +35,11 @@ export interface TextInputInputProps extends InputHTMLAttributes<HTMLInputElemen
 
 function TextInputInput(props:TextInputInputProps) {
   return (
-    <input className='bg-transparent flex-1 outline-none text-grey-100 text-xs placeholder:text-grey-400' {...props} />
+    <input className={
+      `flex-1 outline-none 
+      bg-transparent text-xs text-grey-100
+      group-hover:text-grey-800 group-hover:placeholder:text-grey-800`
+    } {...props} />
   )
 }
 
