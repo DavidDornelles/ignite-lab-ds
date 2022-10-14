@@ -5,6 +5,7 @@ specifiers:
   '@radix-ui/react-checkbox': ^1.0.0
   '@radix-ui/react-slot': ^1.0.0
   '@storybook/addon-actions': ^6.5.12
+  '@storybook/addon-docs': ^6.5.12
   '@storybook/addon-essentials': ^6.5.12
   '@storybook/addon-interactions': ^6.5.12
   '@storybook/addon-links': ^6.5.12
@@ -38,6 +39,7 @@ dependencies:
 devDependencies:
   '@babel/core': 7.19.3
   '@storybook/addon-actions': 6.5.12_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-docs': 6.5.12_kp27jdcapdfmsr2iyuaso7hgri
   '@storybook/addon-essentials': 6.5.12_kp27jdcapdfmsr2iyuaso7hgri
   '@storybook/addon-interactions': 6.5.12_335cwx3de7hzzvfoyjqbus3zhu
   '@storybook/addon-links': 6.5.12_biqbaboplfbrettd7655fr4n2y
@@ -3514,7 +3516,7 @@ packages:
     resolution: {integrity: sha512-l6NQsDDyQUVeoTynNpC9uRvCUint/gSUXQA2euwmTuWGvPY5LSDUu6tkCtJB2SvGQlJQzLaKqcGZP4//7EDveA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 16.11.65
+      '@types/node': 18.8.5
     dev: true
 
   /@types/graceful-fs/4.1.5:
