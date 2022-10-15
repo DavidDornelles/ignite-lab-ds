@@ -35,10 +35,10 @@ export function App() {
           </TextInput.Root>
         </label>
         <label htmlFor='remeber' className='flex items-center gap-2 mb-8'>
-          <Checkbox id='remeber' />
+          <Checkbox id='remeber' aria-label='checkbox' />
           <Text size='sm' className='text-grey-200'>Lembrar de mim por 30 dias</Text>
         </label>
-        <Button type='submit'>Entrar na plataforma</Button>
+        <Button type='submit' aria-label='Entrar na plataforma'>Entrar na plataforma</Button>
       </form>
       <footer className='flex flex-col items-center gap-4'>
         <Text asChild size='sm'>
