@@ -1,0 +1,2 @@
+import{T as t}from"./Text.07098717.js";import{j as o}from"./jsx-runtime.a03f0ed7.js";import"./clsx.m.512c4038.js";import"./iframe.1cfbc74a.js";const n={title:"Components/Text",component:t,args:{children:"Lorem Ipsum",size:"md"}},a={args:{size:"sm"}},i={},l={args:{size:"lg"}},p={args:{asChild:!0,children:o("p",{children:"Testando"})}},c=["Small","Default","Large","CustomComponent"];export{p as CustomComponent,i as Default,l as Large,a as Small,c as __namedExportsOrder,n as default};
+//# sourceMappingURL=Text.stories.504d56cf.js.map
