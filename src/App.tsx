@@ -35,7 +35,7 @@ export function App() {
           </TextInput.Root>
         </label>
         <label htmlFor='remeber' className='flex items-center gap-2 mb-8'>
-          <Checkbox id='remeber' aria-label='checkbox' />
+          <Checkbox id='remeber' ariaLabel='checkbox' />
           <Text size='sm' className='text-grey-200'>Lembrar de mim por 30 dias</Text>
         </label>
         <Button type='submit' aria-label='Entrar na plataforma'>Entrar na plataforma</Button>
