@@ -27,7 +27,7 @@ export interface TextInputIconProps {
 
 function TextInputIcon({ children }:TextInputIconProps) {
   return (
-    <Slot className='h-6 w-6 text-grey-400 group-hover:text-grey-800'>{children}</Slot>
+    <Slot className='h-6 w-6 text-grey-400 group-hover:text-grey-800 group-focus-within:hidden'>{children}</Slot>
   )
 }
 
